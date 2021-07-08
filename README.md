@@ -8,7 +8,7 @@ An easily implemented, non-intrusive chat bot prevention system for Roblox games
 Drag the module into ServerScriptService.
 
 ## Documentation
-*these functions are completely optional and aren't required for the bot protection that ChatGuard provides.*
+*These functions are completely optional and aren't required for the bot protection that ChatGuard provides.*
 
 ```lua
 ChatGuard:TrustPlayer(player, trusted [default: true]) [yields]
