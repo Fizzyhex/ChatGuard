@@ -20,7 +20,6 @@ ChatGuard:TrustPlayer(player, trusted [default: true]) [yields]
 
 ```lua
 ChatGuard:IsPlayerTrusted(player) [yields]
-Returns: true/false
 ```
 
-- Check if a player is trusted.
+- Returns true/false depending on if the player is trusted or not.
