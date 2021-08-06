@@ -13,12 +13,14 @@ Drag the module into ServerScriptService.
 ```lua
 ChatGuard:TrustPlayer(player, trusted [default: true]) [yields]
 ```
+
 - Allows the selected player to send messages.
-- Useful if you want to require players to do certain actions before they can chat,
-- such as click a button or walk somewhere.
+- This is useful for implementing your own tasks that users need to complete in order to chat, such as clicking a button or walking somewhere.
+**- You need to change TRUST_PLAYERS_BY_DEFAULT to false if you would like to implement your own checks as well! **
 
 ```lua
 ChatGuard:IsPlayerTrusted(player) [yields]
+Returns: true/false
 ```
-- Check if a player is trusted. You may need to set TRUST_PLAYERS_BY_DEFAULT to false, depending on your use case.
-- Returns a boolean.
+
+- Check if a player is trusted.
